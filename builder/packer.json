@@ -48,15 +48,9 @@
   },
   {
     "type": "ansible-local",
+    "playbook_dir": "../ansible",
     "playbook_file": "../ansible/site.yml",
-    "inventory_file": "../ansible/hosts",
-    "role_paths": [
-      "../ansible/roles/create-ansible-user",
-      "../ansible/roles/sshd",
-      "../ansible/roles/common",
-      "../ansible/roles/terraform"
-
-    ]
+    "inventory_file": "../ansible/hosts"
   },
   {
     "type": "shell",
