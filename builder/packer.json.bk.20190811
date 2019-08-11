@@ -5,10 +5,6 @@
     "storage_account": "",
     "subscription_id": "",
     "tenant_id": "",
-    "gallery_resource_group": "",
-    "gallery_name": "",
-    "image_name": "",
-    "image_version": "",
     "managed_image_name": "",
     "managed_image_resource_group": ""
 
@@ -30,15 +26,8 @@
 
     "location": "East US",
     "vm_size": "Standard_B1s",
-    "os_type": "Linux",
+    "os_type": "Linux"
 
-    "shared_image_gallery_destination": {
-        "resource_group": "{{user `gallery_resource_group`}}",
-        "gallery_name": "{{user `gallery_name`}}",
-        "image_name": "{{user `image_name`}}",
-        "image_version": "{{user `image_version`}}",
-        "replication_regions": ["eastus"]
-    }
   }],
   "provisioners": [{
     "type": "shell",

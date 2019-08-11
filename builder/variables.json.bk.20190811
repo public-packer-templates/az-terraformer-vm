@@ -1,13 +1,9 @@
 {
     "client_id": "40c9e0ed-0583-422c-ab9c-6a3e977fb7b4",
-    "client_secret": "**",
+    "client_secret": "****",
     "storage_account": "commonrgdisks",
     "subscription_id": "db185367-3dee-4359-ab93-99724f7701b4",
     "tenant_id": "05e0daa3-cdc0-454a-a368-9be57c06dd64",
-    "gallery_resource_group": "image-gallery-rg",
-    "gallery_name": "ManagedImage",
-    "image_name": "Terraformer",
-    "image_version": "1.0.0",
     "managed_image_name": "Terraformer",
     "managed_image_resource_group": "common-rg"
 }
